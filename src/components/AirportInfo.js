@@ -55,7 +55,7 @@ function AirportInfo() {
          
 
     }
-    
+    //CURRENCY DROP DOWN ADAPTED FROM:https://gist.github.com/AmrMekkawy/a5425a4dd4e453a4eb4d 
     return(
         <div className="airportinfo">
            <form onSubmit={handleSubmit}>
