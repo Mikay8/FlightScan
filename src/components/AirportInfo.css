@@ -1,0 +1,157 @@
+body{
+    background:rgb(204, 228, 236);
+    
+    box-sizing:border-box;
+    font-family:"Lato",Sans-serif;
+    
+  /*   position:relative; */
+  }
+.airportinfo {
+    width: 80%;
+    margin: 0 auto; 
+    padding: 20px; 
+    
+    height: 80vh; 
+    overflow-y: auto;
+    display: flex; 
+    flex-direction: column;
+    align-items: left;
+}
+
+form {
+    display:block;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search {
+    background-color: #4fb383;
+    padding: 20px 20px;
+    height: 10px;
+    color: white; 
+    font-family:"Lato",Sans-serif;
+    border-radius: 33px;
+    display: block;
+    line-height: 0px;
+    font-size: 16px;
+}
+
+.search:hover{
+    background-color: #2e644a;
+    padding: 20px 20px;
+    height: 10px;
+    color: white; 
+    font-family:"Lato",Sans-serif;
+    border-radius: 33px;
+    display: block;
+    line-height: 0px;
+    font-size: 16px;
+ }
+
+label {
+
+    font-size: 20px;
+    
+    text-align: left;
+}
+
+
+#fromInput {
+    display: table-row;
+    background-color: #ccc;
+    padding: 12px 20px;
+    margin: 9px 9px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 33px;
+}
+
+#fromInput:focus {
+    border: 3px solid #555;
+
+}
+
+#toInput {
+    display: table-row;
+    background-color: #ccc;
+    padding: 12px 20px;
+    margin: 9px 9px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 33px;
+}
+#toInput:focus {
+    border: 3px solid #555;
+
+}
+#currencyInput{
+    display: table-row;
+    background-color: #ccc;
+    padding: 12px 10px;
+    margin: 9px 9px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 33px;
+
+}
+#currencyInput:focus {
+    border: 3px solid #555;
+
+}
+#dateInput {
+    display: table-row;
+    background-color: #ccc;
+    padding: 12px 20px;
+    margin: 9px 9px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 33px;
+}
+#dateInput:focus {
+    border: 3px solid #555;
+
+}
+#dateInput {
+    background-color: #ccc;
+    padding: 12px 20px;
+    margin: 9px 9px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 33px;
+}
+#dateInput:focus {
+    border: 3px solid #555;
+
+}#dateInputReturn {
+    background-color: #ccc;
+    padding: 12px 20px;
+    margin: 9px 9px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 33px;
+}
+#dateInputReturn:focus {
+    border: 3px solid #555;
+
+}
+

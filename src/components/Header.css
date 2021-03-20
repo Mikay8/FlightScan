@@ -1,0 +1,22 @@
+.header {
+    background-color: #013D5B;
+    min-height: 10vh;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+     
+}
+
+
+  /* When header is not in viewport we hide it */
+  .header[data-scroll="out"] {
+    transform: translatey(-100%);
+  }
+  
+  /* When moving up and header we show it */
+  [data-scroll-dir-y="-1"] .header {
+    transform: translatey(0);
+  }

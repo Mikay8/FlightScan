@@ -1,0 +1,25 @@
+.places {
+    padding-top: 20px;
+    
+}
+
+table {
+    width: 800px;
+    
+	border-collapse: collapse;
+	overflow: hidden;
+
+}  
+p{
+    text-align:center;
+    box-sizing:border-box;
+    font-family:"Lato",Sans-serif;
+    font-size: 25px;
+}
+td, th {
+    border: 3px solid rgba(85, 85, 85, 0.685);
+    padding: 0.5rem;
+    text-align: left;
+    
+}
+  
