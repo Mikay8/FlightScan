@@ -70,7 +70,7 @@ function AirportInfo() {
                    <label htmlFor="fromInput">Destination:</label>
                     
                     
-                    <input id="fromInput" value={query} placeholder="IATA code" onChange={e => setQuery(e.target.value)} required/>
+                    <input id="fromInput" value={query} placeholder="IATA code " onChange={e => setQuery(e.target.value)} required/>
                     
 
                     <label htmlFor="dateInput">Departure date:</label>
